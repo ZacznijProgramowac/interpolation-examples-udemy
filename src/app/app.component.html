@@ -15,18 +15,19 @@
   {{ happy ? 'I am happy' : 'I am not happy' }}
 </p>
 
-<p>Interpolacja z polami obiektów</p>
+<p>Interpolacja name z obiektu 'dog':</p>
 <p>{{ dog.name }}</p>
+<p>Interpolacja 'name' i 'age' z obiektu zwracanego z metody 'getPerson()':</p>
 <p>{{ getPerson().name }} {{ getPerson().age }}</p>
 
 <hr />
 
 <h1>Nieprawidłowa interpolacja</h1>
 
-<p>Interpolacja na obiekcie</p>
+<p>Interpolacja na obiekcie 'dog'</p>
 <p>{{ dog }}</p>
 
-<p>Interpolacja na obiekcie z metody:</p>
+<p>Interpolacja na obiekcie z metody 'getPerson()':</p>
 <p>{{ getPerson() }}</p>
 
 <p>Wymuszenie 'toString()' na metodzie:</p>
