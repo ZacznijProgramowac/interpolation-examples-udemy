@@ -1,0 +1,33 @@
+<h1>{{ title }}</h1>
+
+<p>{{ getInfo() }}</p>
+
+<p>{{ info }}</p>
+
+<p>Wyrażenie: {{ (2 + 2 - 1) * 4 }}</p>
+
+<p>Wyrażenie z metodą: {{ (50 + 50) / getNumber() }}</p>
+
+<p>Typ boolean: {{ happy }}</p>
+
+<p>
+  Ternary operator: <br />
+  {{ happy ? 'I am happy' : 'I am not happy' }}
+</p>
+
+<p>Interpolacja z polami obiektów</p>
+<p>{{ dog.name }}</p>
+<p>{{ getPerson().name }} {{ getPerson().age }}</p>
+
+<hr />
+
+<h1>Nieprawidłowa interpolacja</h1>
+
+<p>Interpolacja na obiekcie</p>
+<p>{{ dog }}</p>
+
+<p>Interpolacja na obiekcie z metody:</p>
+<p>{{ getPerson() }}</p>
+
+<p>Wymuszenie 'toString()' na metodzie:</p>
+<p>{{ getPerson }}</p>
