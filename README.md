@@ -2,8 +2,7 @@
 ## Więcej informacji:
 - kurs udemy [https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/](https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/)
 - blog [https://zacznijprogramowac.net/](https://zacznijprogramowac.net/)
-# Dodatkowe przykłady interpolacji
-Otwórz przez StackBlitz:
+# Otwórz przez StackBlitz:
 [https://stackblitz.com/github/ZacznijProgramowac/interpolation-examples-udemy](https://stackblitz.com/github/ZacznijProgramowac/interpolation-examples-udemy)
 
 ## Wymagania projektu
